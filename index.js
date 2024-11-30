@@ -17,3 +17,16 @@ function isPrime(num){
     }
     return true;
 }
+
+console.log(evenOdd(6));
+console.log(evenOdd(7));
+console.log(evenOdd(13));
+console.log(evenOdd(1));
+
+function evenOdd(num){
+    if(num % 2 == 0){
+        return true;
+    }
+    else
+    return false;
+}
